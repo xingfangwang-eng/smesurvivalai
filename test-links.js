@@ -1,22 +1,22 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-// 测试链接列表
+// Test links list
 const linksToTest = [
-  // API 端点
+  // API endpoints
   'http://localhost:3000/api/leads',
   
-  // 页面链接
+  // Page links
   'http://localhost:3000/',
   'http://localhost:3000/industries/hospitality',
   'http://localhost:3000/construction-trades/independent-hvac-repair-service',
   
-  // 外部链接
+  // External links
   'https://schema.org',
   'https://en.wikipedia.org/wiki/Automation',
   'https://en.wikipedia.org/wiki/Cost_cutting'
 ];
 
-// 测试函数
+// Test function
 async function testLinks() {
   console.log('Testing links...');
   
@@ -32,5 +32,5 @@ async function testLinks() {
   console.log('Link testing completed!');
 }
 
-// 运行测试
+// Run tests
 testLinks();

@@ -111,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </footer>
         <script dangerouslySetInnerHTML={{
           __html: `
-            // 全局资源加载错误监控
+            // Global resource loading error monitoring
             window.addEventListener('error', function(e) {
               if (e.target instanceof HTMLElement) {
                 if (e.target.tagName === 'IMG') {

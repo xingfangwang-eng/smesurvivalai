@@ -133,6 +133,14 @@ export default function IndustrySubNichePage({ params }: Props) {
             <li>
               <div className="flex items-center">
                 <span className="mx-2 text-gray-400">/</span>
+                <a href="/industries" className="text-gray-700 hover:text-primary">
+                  Industries
+                </a>
+              </div>
+            </li>
+            <li>
+              <div className="flex items-center">
+                <span className="mx-2 text-gray-400">/</span>
                 <a href={`/industries/${categorySlug}`} className="text-gray-700 hover:text-primary">
                   {category}
                 </a>
@@ -141,7 +149,7 @@ export default function IndustrySubNichePage({ params }: Props) {
             <li aria-current="page">
               <div className="flex items-center">
                 <span className="mx-2 text-gray-400">/</span>
-                <span className="text-gray-400">{item.sub_sector}</span>
+                <span className="text-gray-900 font-medium">{item.sub_sector}</span>
               </div>
             </li>
           </ol>
@@ -734,7 +742,7 @@ export default function IndustrySubNichePage({ params }: Props) {
       <div className="mt-12">
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl sm:text-2xl">类似行业的 AI 降本案例</CardTitle>
+            <CardTitle className="text-xl sm:text-2xl">AI Cost Reduction Cases in Similar Industries</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
@@ -760,7 +768,7 @@ export default function IndustrySubNichePage({ params }: Props) {
                       <h3 className="text-lg sm:text-xl font-semibold mb-2">{relatedItem.sub_sector}</h3>
                       <p className="text-sm sm:text-base text-gray-600 mb-4">{relatedItem.industry}</p>
                       <div className="mb-4">
-                        <p className="text-sm text-gray-500">预计年度节省金额</p>
+                        <p className="text-sm text-gray-500">Estimated Annual Savings</p>
                         <p className="text-lg sm:text-xl font-bold text-green-600">{annualSavings}</p>
                       </div>
                       <a 
@@ -768,7 +776,7 @@ export default function IndustrySubNichePage({ params }: Props) {
                         className="block w-full"
                       >
                         <Button className="w-full bg-primary hover:bg-primary/90 text-white">
-                          对比 {relatedItem.sub_sector} 的方案
+                          Compare {relatedItem.sub_sector} Solution
                         </Button>
                       </a>
                     </CardContent>

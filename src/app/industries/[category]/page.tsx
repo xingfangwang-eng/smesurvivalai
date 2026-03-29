@@ -53,6 +53,17 @@ export default function IndustryCategoryPage({ params }: Props) {
   
   return (
     <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12">
+      {/* Breadcrumb Navigation */}
+      <div className="mb-6 text-left">
+        <nav className="flex items-center space-x-2 text-sm text-gray-500">
+          <a href="/" className="hover:text-primary transition-colors">Home</a>
+          <span className="text-gray-400">/</span>
+          <a href="/industries" className="hover:text-primary transition-colors">Industries</a>
+          <span className="text-gray-400">/</span>
+          <span className="text-gray-900 font-medium">{categoryTitle}</span>
+        </nav>
+      </div>
+      
       {/* Page Header */}
       <div className="mb-8 sm:mb-12 text-center">
         <div className="inline-block px-3 py-1 sm:px-4 sm:py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
