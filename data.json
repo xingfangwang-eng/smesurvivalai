@@ -1,0 +1,102 @@
+[[
+  {
+    "id": 1,
+    "industry": "Catering & Food Service",
+    "sub_sector": "Family-Owned Italian Trattoria",
+    "pain_portrait": "Owner working 80 hours/week; cannot afford $25/hr dishwashers or $30/hr front-desk staff; facing closure due to 100% labor cost increase since 2023.",
+    "ai_solution": "Deploy AI Voice Agents for phone reservations and takeaway orders; implement AI-driven dynamic scheduling to cut 15% of overstaffed shift hours.",
+    "roi_model": "$80/mo AI subscription replaces one part-time receptionist ($2,800/mo savings). Monthly ROI: 3,400%.",
+    "seo_keywords": "reduce restaurant payroll costs AI 2026, automation for family restaurants, AI voice ordering for trattoria",
+    "lp_title": "A Survival Guide for Trattoria Owners: How AI Saved My Family Business from the 2026 Wage Crisis"
+  },
+  {
+    "id": 2,
+    "industry": "Construction & Trades",
+    "sub_sector": "Residential Roofing Contractor",
+    "pain_portrait": "Losing $15k/month in missed leads because the owner is on the roof and cannot afford a full-time estimator/office manager at new union rates.",
+    "ai_solution": "AI Vision for drone-based roof measurements + Auto-quoting Agent that sends legally binding bids within 2 minutes of a lead inquiry.",
+    "roi_model": "$150/mo for AI tools replaces the need for an $5,000/mo estimator. Recaptures $10k+ in missed revenue.",
+    "seo_keywords": "AI estimating for roofing contractors, automated roofing bids 2026, construction office automation cost",
+    "lp_title": "Stop Leaving Money on the Roof: Use AI to Quote and Close Deals While You Work."
+  },
+  {
+    "id": 3,
+    "industry": "Agriculture",
+    "sub_sector": "Small-Scale Organic Berry Farm",
+    "pain_portrait": "Fruit rotting in fields because seasonal labor costs now exceed market selling price; local minimum wage laws making harvest impossible.",
+    "ai_solution": "Low-cost AI-vision harvesting robots (RaaS model) + AI soil sensors to automate precision irrigation and fertilizer application.",
+    "roi_model": "$500/season lease replaces 4 manual pickers ($12,000 cost). Reduces cost per pound by 65%.",
+    "seo_keywords": "AI berry harvesting for small farms, autonomous agriculture 2026, reduce farm labor costs with robotics",
+    "lp_title": "Don't Let Your Harvest Rot: The Small Farmer’s Guide to Affordable AI Robotics."
+  },
+  {
+    "id": 4,
+    "industry": "Extended - Service",
+    "sub_sector": "24-Hour Self-Service Laundromat",
+    "pain_portrait": "Rising security costs and vandalism. Night shift security guards now demand $35/hr, making 24/7 operations unprofitable.",
+    "ai_solution": "Edge-AI Surveillance with real-time anomaly detection (vandalism, loitering) and automated remote voice intervention.",
+    "roi_model": "$120/mo AI monitoring replaces 30 hours/week of night security ($4,200/mo savings).",
+    "seo_keywords": "AI security for laundromats, automated laundromat management 2026, low cost laundry surveillance",
+    "lp_title": "Secure Your Laundromat Without the $4,000 Security Bill: AI-Vision is Here."
+  },
+  {
+    "id": 5,
+    "industry": "Construction & Trades",
+    "sub_sector": "Independent HVAC Repair Service",
+    "pain_portrait": "Technicians spend 3 hours a day on paperwork and part-ordering instead of billable repairs; overhead is killing the 15% net margin.",
+    "ai_solution": "Voice-to-Invoice AI Agent: Technicians speak to their phone to log parts, hours, and notes; AI generates invoices and orders stock instantly.",
+    "roi_model": "Adds 1 extra billable call per day ($250 revenue) per tech; eliminates $3,000/mo back-office admin salary.",
+    "seo_keywords": "HVAC office automation AI, hands-free invoicing for trades, increase HVAC technician billable hours",
+    "lp_title": "Paperwork is Killing Your Trade Business: Switch to Voice-AI and Reclaim 10 Hours a Week."
+  },
+  {
+    "id": 6,
+    "industry": "Catering & Food Service",
+    "sub_sector": "High-Volume Taco Truck",
+    "pain_portrait": "Lines are too long; customers leave. Cannot find reliable 'window' staff for less than $22/hr plus tips.",
+    "ai_solution": "Kiosk-integrated AI Agent with multilingual voice recognition to handle rapid-fire orders and upselling without human staff.",
+    "roi_model": "$100/mo kiosk lease vs. $3,500/mo employee. Increases average ticket size by 18% via AI upselling.",
+    "seo_keywords": "AI ordering for food trucks, reduce food truck labor costs, automated taco truck kiosk",
+    "lp_title": "Taco Trucks: How to Handle Rush Hour with Zero Window Staff and 20% Higher Sales."
+  },
+  {
+    "id": 7,
+    "industry": "Agriculture",
+    "sub_sector": "Family Poultry Farm (Egg Production)",
+    "pain_portrait": "Feed costs and energy for climate control are up 40%; manual health checks of 5,000 birds lead to undetected disease outbreaks.",
+    "ai_solution": "Acoustic AI Monitoring (detecting bird distress/coughing) + AI Climate Optimization to reduce heating energy waste.",
+    "roi_model": "Prevents flock loss (avg. $20k value) and reduces energy bills by $600/mo. Tool cost: $45/mo.",
+    "seo_keywords": "AI poultry monitoring, reduce egg farm energy costs, smart climate control for chicken coops",
+    "lp_title": "24/7 Flock Protection: How AI Sensors Stop Disease Before It Wipes Out Your Farm."
+  },
+  {
+    "id": 8,
+    "industry": "Extended - Care",
+    "sub_sector": "Boutique Senior Assisted Living (10-Bed)",
+    "pain_portrait": "Overnight nurse staffing costs have tripled; owner must pull all-nighters just to stay compliant with safety regulations.",
+    "ai_solution": "Non-invasive AI Radar for fall detection and sleep apnea monitoring; alerts owner only when intervention is needed.",
+    "roi_model": "Reduces night-shift staffing needs from 2 to 1 ($5,000/mo savings) while improving safety scores.",
+    "seo_keywords": "AI fall detection for small care homes, reduce senior care staffing costs, 2026 assisted living tech",
+    "lp_title": "Safe Nights, Lower Costs: The AI Solution for Small Care Home Owners Facing Staffing Crises."
+  },
+  {
+    "id": 9,
+    "industry": "Construction & Trades",
+    "sub_sector": "Small Solar Installation Firm",
+    "pain_portrait": "Design and permitting taking 4 weeks per project; customers cancel due to delays; admin costs per install exceed $2,000.",
+    "ai_solution": "AI-Automated CAD Design + Permit Document Generator; turns roof photos into engineering blueprints in 10 minutes.",
+    "roi_model": "Cuts project lead time by 80%. Saves $1,500 in subcontracted engineering fees per job.",
+    "seo_keywords": "AI solar design automation, solar permitting software for small biz, reduce solar soft costs 2026",
+    "lp_title": "From Lead to Permit in 24 Hours: Beat the Big Solar Giants with AI Automation."
+  },
+  {
+    "id": 10,
+    "industry": "Extended - Retail",
+    "sub_sector": "Local Hardware Store",
+    "pain_portrait": "Amazon and Big Box stores winning on price; local owner spends all day on inventory management instead of helping customers.",
+    "ai_solution": "AI Inventory Predictor: Scans local construction trends and weather to auto-order stock, preventing overstock capital tie-up.",
+    "roi_model": "Freestopped $25,000 in 'dead' inventory capital in 6 months; reduces inventory labor by 20 hours/week.",
+    "seo_keywords": "AI inventory management for local retail, hardware store automation 2026, fight big box with AI",
+    "lp_title": "Don't Close Your Storefront: Use AI Inventory Tech to Out-Compete the Big Box Chains."
+  }
+]]

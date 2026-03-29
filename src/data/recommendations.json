@@ -1,0 +1,156 @@
+{
+  "recommendations": [
+    {
+      "industry": "Catering & Food Service",
+      "tools": [
+        {
+          "name": "KitchenBot Pro",
+          "icon": "🍳",
+          "efficiency": "Automates recipe scaling and inventory management",
+          "saving": "Reduces food waste by up to 25%",
+          "link": "#"
+        },
+        {
+          "name": "WaiterAI",
+          "icon": "👨‍💼",
+          "efficiency": "Streamlines order taking and table management",
+          "saving": "Increases table turnover by 15%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare",
+      "tools": [
+        {
+          "name": "PatientFlow AI",
+          "icon": "🏥",
+          "efficiency": "Optimizes patient scheduling and triage",
+          "saving": "Reduces waiting times by 30%",
+          "link": "#"
+        },
+        {
+          "name": "MedScript Pro",
+          "icon": "💊",
+          "efficiency": "Automates prescription management",
+          "saving": "Reduces medication errors by 40%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Retail",
+      "tools": [
+        {
+          "name": "StoreAI",
+          "icon": "🛍️",
+          "efficiency": "Optimizes inventory and pricing",
+          "saving": "Reduces overstock by 20%",
+          "link": "#"
+        },
+        {
+          "name": "Checkout Pro",
+          "icon": "💳",
+          "efficiency": "Streamlines checkout process",
+          "saving": "Reduces checkout time by 25%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Manufacturing",
+      "tools": [
+        {
+          "name": "FactoryBot",
+          "icon": "🏭",
+          "efficiency": "Optimizes production scheduling",
+          "saving": "Increases production efficiency by 30%",
+          "link": "#"
+        },
+        {
+          "name": "QualityAI",
+          "icon": "🔍",
+          "efficiency": "Automates quality control",
+          "saving": "Reduces defective products by 40%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Professional Services",
+      "tools": [
+        {
+          "name": "ClientFlow AI",
+          "icon": "💼",
+          "efficiency": "Automates client onboarding",
+          "saving": "Reduces admin time by 35%",
+          "link": "#"
+        },
+        {
+          "name": "Invoicely Pro",
+          "icon": "🧾",
+          "efficiency": "Streamlines billing process",
+          "saving": "Reduces late payments by 25%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Construction & Trades",
+      "tools": [
+        {
+          "name": "DroneMeasure AI",
+          "icon": "🚁",
+          "efficiency": "Automates roof measurements and estimating",
+          "saving": "Reduces estimating time by 80%",
+          "link": "#"
+        },
+        {
+          "name": "TradeSync Pro",
+          "icon": "🔧",
+          "efficiency": "Streamlines scheduling and invoicing",
+          "saving": "Increases billable hours by 15%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Agriculture",
+      "tools": [
+        {
+          "name": "HarvestBot AI",
+          "icon": "🤖",
+          "efficiency": "Automates fruit and vegetable harvesting",
+          "saving": "Reduces labor costs by 65%",
+          "link": "#"
+        },
+        {
+          "name": "SoilSense Pro",
+          "icon": "🌱",
+          "efficiency": "Optimizes irrigation and fertilization",
+          "saving": "Reduces water usage by 40%",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "industry": "Service",
+      "tools": [
+        {
+          "name": "SecureVision AI",
+          "icon": "📹",
+          "efficiency": "Automates security monitoring and anomaly detection",
+          "saving": "Eliminates night security costs",
+          "link": "#"
+        },
+        {
+          "name": "CustomerAssist AI",
+          "icon": "💬",
+          "efficiency": "Automates customer service and support",
+          "saving": "Reduces staffing needs by 30%",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}
