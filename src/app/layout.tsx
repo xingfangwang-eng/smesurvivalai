@@ -46,6 +46,11 @@ const categories = Array.from(new Set(industries.map(getCategoryFromIndustry)));
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Search HTML Verification Tag */}
+        {/* Add your Google verification meta tag here */}
+        <meta name="google-site-verification" content="uTT2vLHXrvh44esSpln_EMc1QEFjkN0vjJZ04UgI0Qc" />
+      </head>
       <body className={inter.className}>
         <header className="bg-primary text-white py-4 px-6 shadow-md">
           <div className="max-w-6xl mx-auto flex justify-center items-center">
