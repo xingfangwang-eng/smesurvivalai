@@ -43,7 +43,6 @@ export async function generateMetadata(
     description: `Discover how ${item.sub_sector} businesses in the ${item.industry} industry can overcome ${item.pain_portrait.substring(0, 160)}... with AI automation.`,
     keywords: item.seo_keywords,
     robots: 'index, follow',
-    lastModified: new Date().toISOString(),
   };
 }
 
