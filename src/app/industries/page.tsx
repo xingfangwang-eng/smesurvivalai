@@ -62,7 +62,12 @@ export default function IndustriesPage() {
           return (
             <Card key={category} className="hover:shadow-md transition-shadow">
               <CardHeader>
-                <CardTitle className="text-lg sm:text-xl">{category}</CardTitle>
+                <a 
+                  href={`/industries/${categorySlug}`}
+                  className="block hover:no-underline"
+                >
+                  <CardTitle className="text-lg sm:text-xl hover:text-primary transition-colors">{category}</CardTitle>
+                </a>
                 <p className="text-sm text-gray-600">{industryCount} industries</p>
               </CardHeader>
               <CardContent>
