@@ -46,21 +46,23 @@ const categories = Array.from(new Set(industries.map(getCategoryFromIndustry)));
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WC4677QJMF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  // 动态注入项目名
-  gtag('config', 'G-WC4677QJMF', {
-    'project_name': 'src'
-  });
-</script>
       <head>
         {/* Google Search HTML Verification Tag */}
-        {/* Add your Google verification meta tag here */}
         <meta name="google-site-verification" content="uTT2vLHXrvh44esSpln_EMc1QEFjkN0vjJZ04UgI0Qc" />
+        
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WC4677QJMF"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            // 动态注入项目名
+            gtag('config', 'G-WC4677QJMF', {
+              'project_name': 'src'
+            });
+          `
+        }} />
       </head>
       <body className={inter.className}>
         <header className="bg-primary text-white py-4 px-6 shadow-md">
